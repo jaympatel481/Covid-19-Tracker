@@ -1,0 +1,22 @@
+.table
+{
+    overflow: scroll;
+    height: 400px;
+    padding: 5px 5px 5px 5px;
+}
+
+.table tr:nth-of-type(odd)
+{
+    background: rgb(4, 5, 53);
+    color: #67c7ca;
+}
+.table tr:nth-of-type(even)
+{
+    background: #67c7ca;
+    color:  rgb(4, 5, 53); 
+}
+
+.table tr{
+    display: flex;
+    justify-content: space-between;
+}

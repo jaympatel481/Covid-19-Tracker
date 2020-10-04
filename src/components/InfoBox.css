@@ -1,0 +1,17 @@
+.card
+{
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.infoBox--selected {
+    border-top: 10px solid greenyellow;
+  }
+  
+.infoBox--red {
+    border-color: red;
+  }
+  
+.infoBox__cases--green {
+    color: lightgreen !important;
+  }
